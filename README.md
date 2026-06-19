@@ -47,3 +47,4 @@ cd portfolio
 
 **Жұматай Аяулым**  
 2504 тобы# portfolio
+# portfolio
