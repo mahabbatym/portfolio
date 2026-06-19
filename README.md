@@ -46,4 +46,4 @@ cd portfolio
 ## 👤 Автор | Author
 
 **Жұматай Аяулым**  
-2504 тобы
+2504 тобы# portfolio
