@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Менің портфолиом</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-bracket">&lt;</span>Аяулым<span class="logo-bracket">/&gt;</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Басты бет</a></li>
+        <li><a href="#about">Мен туралы</a></li>
+        <li><a href="#skills">Дағдылар</a></li>
+        <li><a href="#projects">Жобалар</a></li>
+        <li><a href="#contact">Байланыс</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Сәлем, менің атым</p>
+      <h1 class="hero-name">Аяулым <span class="highlight">Мұратқызы</span></h1>
+      <h2 class="hero-role">Frontend Developer & UI/UX Designer</h2>
+      <p class="hero-desc">
+        Мен веб-сайттар мен мобильді қосымшалар үшін әдемі және функционалды интерфейстер жасаймын.
+        Заманауи технологияларды қолдана отырып, пайдаланушыға ыңғайлы тәжірибе құрамын.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Жобаларым <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Байланысу</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">15+</span>
+          <span class="stat-label">Жоба</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Жыл тәжірибе</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Клиент</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-blob">
+        <div class="avatar-placeholder">
+          <i class="fas fa-user"></i>
+        </div>
+      </div>
+      <div class="floating-badge badge-1"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="floating-badge badge-2"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="floating-badge badge-3"><i class="fab fa-js"></i> JavaScript</div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 01</span>
+        <h2 class="section-title">Мен <span class="highlight">туралы</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-img-box">
+            <div class="about-avatar">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="about-img-decoration"></div>
+          </div>
+          <div class="about-exp-badge">
+            <span class="exp-num">2+</span>
+            <span class="exp-text">Жыл тәжірибе</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Веб-разработчик және UI/UX дизайнер</h3>
+          <p>
+            Мен Астана қаласында тұратын IT саласына қызығушылық танытатын студентпін.
+            HTML, CSS, JavaScript технологияларын қолданып, заманауи веб-сайттар жасаумен айналысамын.
+          </p>
+          <p>
+            Figma арқылы UX/UI дизайн жасауды үйреніп, оны нақты кодқа айналдыра аламын.
+            Мақсатым — пайдаланушыға ыңғайлы, әдемі және тез жұмыс жасайтын интерфейстер құру.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Астана, Қазақстан</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>IT мамандығы студенті</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span>aigerim@email.com</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-language"></i>
+              <span>Қазақ, Орыс, Ағылшын</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Байланысу <i class="fas fa-paper-plane"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 02</span>
+        <h2 class="section-title">Менің <span class="highlight">дағдыларым</span></h2>
+      </div>
+
+      <div class="skills-categories">
+        <!-- Frontend -->
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-code"></i> Frontend</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fab fa-html5 html-icon"></i> HTML5</div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fab fa-css3-alt css-icon"></i> CSS3</div>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fab fa-js js-icon"></i> JavaScript</div>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design -->
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-palette"></i> Дизайн</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fab fa-figma figma-icon"></i> Figma</div>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fas fa-swatchbook"></i> UI/UX Design</div>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name"><i class="fas fa-mobile-alt"></i> Адаптивті дизайн</div>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-tools"></i> Құралдар</h3>
+          <div class="skills-grid-icons">
+            <div class="tool-badge"><i class="fab fa-git-alt"></i> Git</div>
+            <div class="tool-badge"><i class="fas fa-code"></i> VS Code</div>
+            <div class="tool-badge"><i class="fab fa-chrome"></i> Chrome DevTools</div>
+            <div class="tool-badge"><i class="fas fa-terminal"></i> Terminal</div>
+            <div class="tool-badge"><i class="fab fa-github"></i> GitHub</div>
+            <div class="tool-badge"><i class="fas fa-sitemap"></i> Flexbox/Grid</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 03</span>
+        <h2 class="section-title">Менің <span class="highlight">жобаларым</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img project-img-1">
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="fas fa-eye"></i> Қарау</a>
+              <a href="#" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <span class="project-badge">HTML / CSS</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Онлайн Дүкен</h3>
+            <p class="project-desc">HTML және CSS қолданып жасалған адаптивті онлайн дүкен беті. Өнімдер каталогы, себет және байланыс формасы бар.</p>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>Flexbox</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img project-img-2">
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="fas fa-eye"></i> Қарау</a>
+              <a href="#" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <span class="project-badge">JavaScript</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Ауа Райы Қосымшасы</h3>
+            <p class="project-desc">JavaScript және API арқылы жасалған ауа райы қосымшасы. Кез келген қаланың ауа райын нақты уақытта көрсетеді.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span><span>CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img project-img-3">
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="fas fa-eye"></i> Қарау</a>
+              <a href="#" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <span class="project-badge">UI/UX</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Мобильді Қосымша Дизайны</h3>
+            <p class="project-desc">Figma арқылы жасалған фитнес қосымшасының толық UI/UX дизайны. Wireframe-нен бастап дайын прототипке дейін.</p>
+            <div class="project-tags">
+              <span>Figma</span><span>UI/UX</span><span>Prototype</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 04</span>
+        <h2 class="section-title">Байланыс <span class="highlight">мәліметтері</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Хабарласыңыз!</h3>
+          <p>Бірге жаңа жоба жасауға дайынмын. Маған хабарлама жіберіңіз немесе әлеуметтік желілер арқылы байланысыңыз.</p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Email</span>
+                <span class="detail-value">aigerim@email.com</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Телефон</span>
+                <span class="detail-value">+7 (777) 123-45-67</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Орналасқан жер</span>
+                <span class="detail-value">Астана, Қазақстан</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-btn github"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-btn telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Атыңыз</label>
+                <input type="text" placeholder="Аты-жөніңіз" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="email@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Тақырып</label>
+              <input type="text" placeholder="Хабарлама тақырыбы" />
+            </div>
+            <div class="form-group">
+              <label>Хабарлама</label>
+              <textarea rows="5" placeholder="Хабарламаңызды жазыңыз..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Жіберу <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>Аяулым<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-text">© 2026 Жұматай Аяулым. Барлық құқықтар қорғалған.</p>
+        <div class="footer-links">
+          <a href="#home">Басты бет</a>
+          <a href="#about">Мен туралы</a>
+          <a href="#projects">Жобалар</a>
+          <a href="#contact">Байланыс</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
