@@ -32,7 +32,7 @@ window.addEventListener('scroll', () => {
   navLinks.forEach(link => {
     link.style.color = '';
     if (link.getAttribute('href') === `#${current}`) {
-      link.style.color = '#6c63ff';
+      link.style.color = '#e50914';
     }
   });
 });
@@ -47,10 +47,10 @@ hamburger.addEventListener('click', () => {
   navLinksEl.style.top = '70px';
   navLinksEl.style.left = '0';
   navLinksEl.style.right = '0';
-  navLinksEl.style.background = 'rgba(10,10,26,0.98)';
+  navLinksEl.style.background = 'rgba(5,5,5,0.98)';
   navLinksEl.style.padding = '20px 24px';
   navLinksEl.style.gap = '16px';
-  navLinksEl.style.borderBottom = '1px solid rgba(108,99,255,0.2)';
+  navLinksEl.style.borderBottom = '1px solid rgba(229,9,20,0.28)';
 });
 
 // ===== SKILL BAR ANIMATION ON SCROLL =====
@@ -95,7 +95,7 @@ function handleSubmit(e) {
   e.preventDefault();
   const btn = e.target.querySelector('button[type="submit"]');
   btn.innerHTML = '<i class="fas fa-check"></i> Жіберілді!';
-  btn.style.background = 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)';
+  btn.style.background = 'linear-gradient(135deg, #e50914 0%, #8b0008 100%)';
   setTimeout(() => {
     btn.innerHTML = 'Жіберу <i class="fas fa-paper-plane"></i>';
     btn.style.background = '';
